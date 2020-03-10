@@ -10,7 +10,7 @@ Recommended to ssh into your server with agent forwarding ie `ssh root@yourip -A
 ### Ubuntu 18.04 LTS, Nginx 1.15.9, mod_pagespeed 1.13.35.2-stable, php 7.3, mariadb 10.3
 ```
 sudo apt-get install wget
-wget https://raw.githubusercontent.com/amurrell/LEMP-setup-guide/master/install/install-upgraded
+wget https://raw.githubusercontent.com/gistol/LEMP-setup-guide/master/install/install-upgraded
 sudo chmod +x install-upgraded
 ./install-upgraded
 ```
@@ -18,7 +18,7 @@ sudo chmod +x install-upgraded
 ### Ubuntu 16.04 LTS, Nginx 1.10.1, mod_pagespeed 1.11.33.2, php 7.2, mariadb 10.3
 ```
 sudo apt-get install wget
-wget https://raw.githubusercontent.com/amurrell/LEMP-setup-guide/master/install/install
+wget https://raw.githubusercontent.com/gistol/LEMP-setup-guide/master/install/install
 sudo chmod +x install
 ./install
 ```
@@ -47,7 +47,7 @@ The following scripts are used "per site" that you want to setup on your server.
 
 ## Use SimpleDocker to test script
 
-[SimpleDocker](https://github.com/amurrell/SimpleDocker) is just an ubuntu 16.04 or 18.04 Docker Container that you can use to test the scripts in the scripts folder.
+[SimpleDocker](https://github.com/gistol/SimpleDocker) is just an ubuntu 16.04 or 18.04 Docker Container that you can use to test the scripts in the scripts folder.
 
 Just clone SimpleDocker into the root directory of this LEMP project and alter the docker-compose.yml file to make the volume like:
 
